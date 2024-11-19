@@ -1,0 +1,7 @@
+C:\Users\MALDEV01\source\repos\registry\registry\bin\x64\Release\registry.exe.config
+C:\Users\MALDEV01\source\repos\registry\registry\bin\x64\Release\registry.exe
+C:\Users\MALDEV01\source\repos\registry\registry\bin\x64\Release\registry.pdb
+C:\Users\MALDEV01\source\repos\registry\registry\obj\x64\Release\registry.csproj.AssemblyReference.cache
+C:\Users\MALDEV01\source\repos\registry\registry\obj\x64\Release\registry.csproj.CoreCompileInputs.cache
+C:\Users\MALDEV01\source\repos\registry\registry\obj\x64\Release\registry.exe
+C:\Users\MALDEV01\source\repos\registry\registry\obj\x64\Release\registry.pdb
