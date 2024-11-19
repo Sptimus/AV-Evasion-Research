@@ -1,0 +1,7 @@
+C:\Users\MALDEV01\source\repos\BasicShellcodeRunner\BasicShellcodeRunner\bin\x64\Release\BasicShellcodeRunner.exe.config
+C:\Users\MALDEV01\source\repos\BasicShellcodeRunner\BasicShellcodeRunner\bin\x64\Release\BasicShellcodeRunner.exe
+C:\Users\MALDEV01\source\repos\BasicShellcodeRunner\BasicShellcodeRunner\bin\x64\Release\BasicShellcodeRunner.pdb
+C:\Users\MALDEV01\source\repos\BasicShellcodeRunner\BasicShellcodeRunner\obj\x64\Release\BasicShellcodeRunner.csproj.AssemblyReference.cache
+C:\Users\MALDEV01\source\repos\BasicShellcodeRunner\BasicShellcodeRunner\obj\x64\Release\BasicShellcodeRunner.csproj.CoreCompileInputs.cache
+C:\Users\MALDEV01\source\repos\BasicShellcodeRunner\BasicShellcodeRunner\obj\x64\Release\BasicShellcodeRunner.exe
+C:\Users\MALDEV01\source\repos\BasicShellcodeRunner\BasicShellcodeRunner\obj\x64\Release\BasicShellcodeRunner.pdb
