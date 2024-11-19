@@ -1,0 +1,7 @@
+C:\Users\MALDEV01\source\repos\XOREncoder\XOREncoder\bin\Debug\XOREncoder.exe.config
+C:\Users\MALDEV01\source\repos\XOREncoder\XOREncoder\bin\Debug\XOREncoder.exe
+C:\Users\MALDEV01\source\repos\XOREncoder\XOREncoder\bin\Debug\XOREncoder.pdb
+C:\Users\MALDEV01\source\repos\XOREncoder\XOREncoder\obj\Debug\XOREncoder.csproj.AssemblyReference.cache
+C:\Users\MALDEV01\source\repos\XOREncoder\XOREncoder\obj\Debug\XOREncoder.csproj.CoreCompileInputs.cache
+C:\Users\MALDEV01\source\repos\XOREncoder\XOREncoder\obj\Debug\XOREncoder.exe
+C:\Users\MALDEV01\source\repos\XOREncoder\XOREncoder\obj\Debug\XOREncoder.pdb
