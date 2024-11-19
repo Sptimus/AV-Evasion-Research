@@ -1,0 +1,7 @@
+C:\Users\MALDEV01\source\repos\scheduler\ConsoleApp1\bin\x64\Release\ConsoleApp1.exe.config
+C:\Users\MALDEV01\source\repos\scheduler\ConsoleApp1\bin\x64\Release\ConsoleApp1.exe
+C:\Users\MALDEV01\source\repos\scheduler\ConsoleApp1\bin\x64\Release\ConsoleApp1.pdb
+C:\Users\MALDEV01\source\repos\scheduler\ConsoleApp1\obj\x64\Release\Scheduler.csproj.AssemblyReference.cache
+C:\Users\MALDEV01\source\repos\scheduler\ConsoleApp1\obj\x64\Release\Scheduler.csproj.CoreCompileInputs.cache
+C:\Users\MALDEV01\source\repos\scheduler\ConsoleApp1\obj\x64\Release\ConsoleApp1.exe
+C:\Users\MALDEV01\source\repos\scheduler\ConsoleApp1\obj\x64\Release\ConsoleApp1.pdb
