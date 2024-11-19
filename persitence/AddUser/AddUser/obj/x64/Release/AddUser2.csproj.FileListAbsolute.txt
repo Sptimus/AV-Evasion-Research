@@ -1,0 +1,7 @@
+C:\Users\MALDEV01\source\repos\AddUser2\AddUser2\bin\x64\Release\AddUser2.exe.config
+C:\Users\MALDEV01\source\repos\AddUser2\AddUser2\bin\x64\Release\AddUser2.exe
+C:\Users\MALDEV01\source\repos\AddUser2\AddUser2\bin\x64\Release\AddUser2.pdb
+C:\Users\MALDEV01\source\repos\AddUser2\AddUser2\obj\x64\Release\AddUser2.csproj.AssemblyReference.cache
+C:\Users\MALDEV01\source\repos\AddUser2\AddUser2\obj\x64\Release\AddUser2.csproj.CoreCompileInputs.cache
+C:\Users\MALDEV01\source\repos\AddUser2\AddUser2\obj\x64\Release\AddUser2.exe
+C:\Users\MALDEV01\source\repos\AddUser2\AddUser2\obj\x64\Release\AddUser2.pdb
