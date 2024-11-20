@@ -1,0 +1,2 @@
+C:\Users\MALDEV01\source\repos\Cesar\Cesar\obj\Debug\Cesar.csproj.AssemblyReference.cache
+C:\Users\MALDEV01\source\repos\Cesar\Cesar\obj\Debug\Cesar.csproj.CoreCompileInputs.cache

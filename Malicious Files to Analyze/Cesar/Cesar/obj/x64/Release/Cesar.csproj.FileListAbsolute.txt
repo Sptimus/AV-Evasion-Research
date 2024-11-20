@@ -1,0 +1,7 @@
+C:\Users\MALDEV01\source\repos\Cesar\Cesar\obj\x64\Release\Cesar.csproj.AssemblyReference.cache
+C:\Users\MALDEV01\source\repos\Cesar\Cesar\obj\x64\Release\Cesar.csproj.CoreCompileInputs.cache
+C:\Users\MALDEV01\source\repos\Cesar\Cesar\bin\x64\Release\Cesar.exe.config
+C:\Users\MALDEV01\source\repos\Cesar\Cesar\bin\x64\Release\Cesar.exe
+C:\Users\MALDEV01\source\repos\Cesar\Cesar\bin\x64\Release\Cesar.pdb
+C:\Users\MALDEV01\source\repos\Cesar\Cesar\obj\x64\Release\Cesar.exe
+C:\Users\MALDEV01\source\repos\Cesar\Cesar\obj\x64\Release\Cesar.pdb
