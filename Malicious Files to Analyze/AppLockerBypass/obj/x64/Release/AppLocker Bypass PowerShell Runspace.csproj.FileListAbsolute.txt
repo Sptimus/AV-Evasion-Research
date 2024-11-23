@@ -1,0 +1,9 @@
+C:\Users\MALDEV01\Desktop\OSEP-Code-Snippets-main\AppLocker Bypass PowerShell Runspace\bin\x64\Release\System.Management.Automation.dll
+C:\Users\MALDEV01\Desktop\OSEP-Code-Snippets-main\AppLocker Bypass PowerShell Runspace\obj\x64\Release\AppLocker Bypass PowerShell Runspace.csproj.AssemblyReference.cache
+C:\Users\MALDEV01\Desktop\OSEP-Code-Snippets-main\AppLocker Bypass PowerShell Runspace\obj\x64\Release\AppLocker Bypass PowerShell Runspace.csproj.CoreCompileInputs.cache
+C:\Users\MALDEV01\Desktop\OSEP-Code-Snippets-main\AppLocker Bypass PowerShell Runspace\obj\x64\Release\AppLocke.00521483.Up2Date
+C:\Users\MALDEV01\Desktop\OSEP-Code-Snippets-main\AppLocker Bypass PowerShell Runspace\bin\x64\Release\AppLockerBypass.exe.config
+C:\Users\MALDEV01\Desktop\OSEP-Code-Snippets-main\AppLocker Bypass PowerShell Runspace\bin\x64\Release\AppLockerBypass.exe
+C:\Users\MALDEV01\Desktop\OSEP-Code-Snippets-main\AppLocker Bypass PowerShell Runspace\bin\x64\Release\AppLockerBypass.pdb
+C:\Users\MALDEV01\Desktop\OSEP-Code-Snippets-main\AppLocker Bypass PowerShell Runspace\obj\x64\Release\AppLockerBypass.exe
+C:\Users\MALDEV01\Desktop\OSEP-Code-Snippets-main\AppLocker Bypass PowerShell Runspace\obj\x64\Release\AppLockerBypass.pdb
