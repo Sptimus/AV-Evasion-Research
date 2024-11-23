@@ -1,0 +1,7 @@
+C:\Users\MALDEV01\source\repos\ProcessInjection\ProcessInjection\bin\x64\Release\ProcessInjection.exe.config
+C:\Users\MALDEV01\source\repos\ProcessInjection\ProcessInjection\bin\x64\Release\ProcessInjection.exe
+C:\Users\MALDEV01\source\repos\ProcessInjection\ProcessInjection\bin\x64\Release\ProcessInjection.pdb
+C:\Users\MALDEV01\source\repos\ProcessInjection\ProcessInjection\obj\x64\Release\ProcessInjection.csproj.AssemblyReference.cache
+C:\Users\MALDEV01\source\repos\ProcessInjection\ProcessInjection\obj\x64\Release\ProcessInjection.csproj.CoreCompileInputs.cache
+C:\Users\MALDEV01\source\repos\ProcessInjection\ProcessInjection\obj\x64\Release\ProcessInjection.exe
+C:\Users\MALDEV01\source\repos\ProcessInjection\ProcessInjection\obj\x64\Release\ProcessInjection.pdb
