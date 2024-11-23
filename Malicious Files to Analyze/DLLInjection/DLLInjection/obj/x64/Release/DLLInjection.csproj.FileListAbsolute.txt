@@ -1,0 +1,7 @@
+C:\Users\MALDEV01\source\repos\DLLInjection\DLLInjection\bin\x64\Release\DLLInjection.exe.config
+C:\Users\MALDEV01\source\repos\DLLInjection\DLLInjection\bin\x64\Release\DLLInjection.exe
+C:\Users\MALDEV01\source\repos\DLLInjection\DLLInjection\bin\x64\Release\DLLInjection.pdb
+C:\Users\MALDEV01\source\repos\DLLInjection\DLLInjection\obj\x64\Release\DLLInjection.csproj.AssemblyReference.cache
+C:\Users\MALDEV01\source\repos\DLLInjection\DLLInjection\obj\x64\Release\DLLInjection.csproj.CoreCompileInputs.cache
+C:\Users\MALDEV01\source\repos\DLLInjection\DLLInjection\obj\x64\Release\DLLInjection.exe
+C:\Users\MALDEV01\source\repos\DLLInjection\DLLInjection\obj\x64\Release\DLLInjection.pdb
