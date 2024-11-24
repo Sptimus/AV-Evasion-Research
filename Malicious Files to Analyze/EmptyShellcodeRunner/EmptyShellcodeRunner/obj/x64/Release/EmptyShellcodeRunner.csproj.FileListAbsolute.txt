@@ -1,0 +1,7 @@
+C:\Users\MALDEV01\source\repos\EmptyShellcodeRunner\EmptyShellcodeRunner\bin\x64\Release\EmptyShellcodeRunner.exe.config
+C:\Users\MALDEV01\source\repos\EmptyShellcodeRunner\EmptyShellcodeRunner\bin\x64\Release\EmptyShellcodeRunner.exe
+C:\Users\MALDEV01\source\repos\EmptyShellcodeRunner\EmptyShellcodeRunner\bin\x64\Release\EmptyShellcodeRunner.pdb
+C:\Users\MALDEV01\source\repos\EmptyShellcodeRunner\EmptyShellcodeRunner\obj\x64\Release\EmptyShellcodeRunner.csproj.AssemblyReference.cache
+C:\Users\MALDEV01\source\repos\EmptyShellcodeRunner\EmptyShellcodeRunner\obj\x64\Release\EmptyShellcodeRunner.csproj.CoreCompileInputs.cache
+C:\Users\MALDEV01\source\repos\EmptyShellcodeRunner\EmptyShellcodeRunner\obj\x64\Release\EmptyShellcodeRunner.exe
+C:\Users\MALDEV01\source\repos\EmptyShellcodeRunner\EmptyShellcodeRunner\obj\x64\Release\EmptyShellcodeRunner.pdb
