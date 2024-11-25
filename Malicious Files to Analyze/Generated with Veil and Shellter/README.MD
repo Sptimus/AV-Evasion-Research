@@ -56,4 +56,10 @@ The payloads in this directory serve to:
 
 ## Disclaimer
 
-These files are provided strictly for **educational and research purposes**. The authors do not support or condone malicious use of these tools or
+These files are provided strictly for **educational and research purposes**. The authors do not support or condone malicious use of these tools or payloads. Use responsibly within legal and ethical guidelines.
+
+---
+
+## Contact
+
+For any questions or suggestions, please reach out via the repository's issue tracker or contact the maintainer directly.
