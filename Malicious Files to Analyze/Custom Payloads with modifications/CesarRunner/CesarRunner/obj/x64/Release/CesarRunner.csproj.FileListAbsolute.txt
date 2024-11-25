@@ -1,7 +1,0 @@
-C:\Users\MALDEV01\source\repos\CesarRunner\CesarRunner\bin\x64\Release\CesarRunner.exe.config
-C:\Users\MALDEV01\source\repos\CesarRunner\CesarRunner\bin\x64\Release\CesarRunner.exe
-C:\Users\MALDEV01\source\repos\CesarRunner\CesarRunner\bin\x64\Release\CesarRunner.pdb
-C:\Users\MALDEV01\source\repos\CesarRunner\CesarRunner\obj\x64\Release\CesarRunner.csproj.AssemblyReference.cache
-C:\Users\MALDEV01\source\repos\CesarRunner\CesarRunner\obj\x64\Release\CesarRunner.csproj.CoreCompileInputs.cache
-C:\Users\MALDEV01\source\repos\CesarRunner\CesarRunner\obj\x64\Release\CesarRunner.exe
-C:\Users\MALDEV01\source\repos\CesarRunner\CesarRunner\obj\x64\Release\CesarRunner.pdb
