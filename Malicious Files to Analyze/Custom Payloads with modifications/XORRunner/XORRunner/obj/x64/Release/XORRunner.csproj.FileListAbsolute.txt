@@ -1,7 +1,0 @@
-C:\Users\MALDEV01\source\repos\XORRunner\XORRunner\bin\x64\Release\XORRunner.exe.config
-C:\Users\MALDEV01\source\repos\XORRunner\XORRunner\bin\x64\Release\XORRunner.exe
-C:\Users\MALDEV01\source\repos\XORRunner\XORRunner\bin\x64\Release\XORRunner.pdb
-C:\Users\MALDEV01\source\repos\XORRunner\XORRunner\obj\x64\Release\XORRunner.csproj.AssemblyReference.cache
-C:\Users\MALDEV01\source\repos\XORRunner\XORRunner\obj\x64\Release\XORRunner.csproj.CoreCompileInputs.cache
-C:\Users\MALDEV01\source\repos\XORRunner\XORRunner\obj\x64\Release\XORRunner.exe
-C:\Users\MALDEV01\source\repos\XORRunner\XORRunner\obj\x64\Release\XORRunner.pdb
